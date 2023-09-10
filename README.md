@@ -1,2 +1,2 @@
 # Python-Learning
-Self teaching python and the projects aloing the way.
+Demonstrating Python Fundamentals and Sample Python Projects that use said fundamentals.
