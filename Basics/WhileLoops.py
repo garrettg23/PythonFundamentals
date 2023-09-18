@@ -7,7 +7,7 @@
 #while 1 == 1:
 #    print("Help, I am stuck in a infinite loop! Kill the program!")
 
-# various samples of name input examples below, if the user does not input name it will keep asking.
+# Two input your name examples below, if the user does not input name it will keep asking.
 name = ""
 
 while len(name) == 0:
