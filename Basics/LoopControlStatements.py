@@ -29,3 +29,5 @@ for i in range(1,21):
         pass
     else:
         print(i)
+
+# note that the above example of pass acts as a continue, but "else:" is needed.
