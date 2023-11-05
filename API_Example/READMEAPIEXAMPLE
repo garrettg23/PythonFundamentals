@@ -1,0 +1,17 @@
+Explanation:
+
+Import the requests library: This library allows you to make HTTP requests to the API.
+
+Define your API key and base URL: You need to sign up on the OpenWeatherMap website to get your API key and replace 'YOUR_API_KEY' with your actual key.
+
+Get the city name from the user: This allows the user to input the city for which they want to fetch weather information.
+
+Construct request parameters: We create a dictionary params to specify the parameters for the API request. In this example, we provide the city name, your API key, and request the temperature in metric units.
+
+Send an HTTP GET request: We use the requests.get() method to send a GET request to the OpenWeatherMap API with the specified parameters.
+
+Check the response: We check if the HTTP response code is 200 (OK), indicating a successful request.
+
+Extract and display weather information: If the response is successful, we extract and print the temperature and weather description from the JSON response.
+
+Remember to replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key, and you can explore the OpenWeatherMap API documentation for more details on available features and parameters: https://openweathermap.org/api.
