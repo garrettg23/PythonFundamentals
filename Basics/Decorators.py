@@ -25,9 +25,10 @@ def multiply(a, b):
 
 
 result_add = add(3, 5)
-result_multiply = multiply(4, 6)
-result2_add = add(19, 20)
-
 print(result_add)
+
+result_multiply = multiply(4, 6)
 print(result_multiply)
+
+result2_add = add(19, 20)
 print(result2_add)
