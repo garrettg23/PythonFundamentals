@@ -1,0 +1,3 @@
+# Test .gitignore file. This file will not load any commits within "ignoreThis" folder in this project.
+
+/ignoreThis/
